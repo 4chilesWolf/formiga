@@ -3,7 +3,7 @@
 .containerfor {
     width: 550px;
     margin: 50px auto;
-    background: #131313;
+    background: #060606;
     box-shadow: 0 0 10px 0 #000;
     position:relative;
     overflow: hidden;
@@ -14,19 +14,19 @@
     width: 100%;
     background-image: cover;
     overflow: hidden;
-    height: 200px;
+    height: 200px
 }
 
 .titlefor {
     background-color: transparent;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
     font-weight: bold;
     font-size: 18px;
     font-family: 'Megrim', cursive;
     color: white;
     border: 1px solid white;
     padding: 20px 0;
-    margin: 100px auto;
+    margin: -2px auto;
     width: 55%;
     text-align: center;
     position: relative;
@@ -37,15 +37,15 @@
 .textcontainerfor {
     color: #f8f8ff;
     font-size: 12px;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     position: relative;
     z-index: 1;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px #000;
 }
 
-.hr1 {
+.hr2 {
     height:1px;
     border: none;
     background-color: #fff;
@@ -64,7 +64,7 @@
     padding: 20px 0;
 }
 
-.containerfor::before {
+.containerk::before {
     content: '';
     display: block;
     width: 500px;

@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Megrim&family=Raleway&family=Poppins&family=Didact+Gothic&display=swap);
 
-.containerfor {
+.containerv {
     width: 550px;
     margin: 50px auto;
     background: #1a1a22;
@@ -9,16 +9,15 @@
     overflow: hidden;
 }
 
-.containerimgfor {
-    background:var(--forimg1);
-    width: 500px;
+.containerimgv {
+    background:url(https://i.imgur.com/uxscuav.png);
+    width: 100%;
     background-image: cover;
     overflow: hidden;
     height: 200px
-    border: 1px solid white;
 }
 
-.titlefor {
+.titlev {
     background-color: transparent;
     backdrop-filter: blur(1px);
     font-weight: bold;
@@ -35,7 +34,7 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.textcontainerfor {
+.textcontainerv {
     color: #f8f8ff;
     font-size: 12px;
     padding: 20px;
@@ -65,7 +64,7 @@
     padding: 20px 0;
 }
 
-.textcontainerfor::before {
+.containerv::before {
     content: '';
     display: block;
     width: 500px;

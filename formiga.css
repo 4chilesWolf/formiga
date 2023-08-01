@@ -63,18 +63,3 @@
     text-align: justify;
     padding: 20px 0;
 }
-
-.containerfor::before {
-    content: '';
-    display: block;
-    width: 500px;
-    height: 620px;
-    background-image:url(https://i.imgur.com/LlG3gWP.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 63%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    opacity: 15%
-}

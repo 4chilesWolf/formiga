@@ -11,10 +11,12 @@
 
 .containerimgfor {
     background: var(--forimg1);
-    width: 100%;
+    width: 500px;
     background-image: cover;
     overflow: hidden;
     height: 200px
+    border: 1px solid white;
+    margin: 20px auto;
 }
 
 .titlefor {

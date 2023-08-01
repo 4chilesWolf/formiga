@@ -3,7 +3,7 @@
 .containerfor {
     width: 550px;
     margin: 50px auto;
-    background: #060606;
+    background: #131313;
     box-shadow: 0 0 10px 0 #000;
     position:relative;
     overflow: hidden;
@@ -64,7 +64,7 @@
     padding: 20px 0;
 }
 
-.containerk::before {
+.containerfor::before {
     content: '';
     display: block;
     width: 500px;

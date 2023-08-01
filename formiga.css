@@ -3,7 +3,7 @@
 .containerfor {
     width: 550px;
     margin: 50px auto;
-    background: #1a1a22;
+    background: #131313;
     box-shadow: 0 0 10px 0 #000;
     position:relative;
     overflow: hidden;
@@ -42,7 +42,7 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     z-index: 1;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .hr1 {
@@ -68,12 +68,12 @@
     content: '';
     display: block;
     width: 500px;
-    height: 560px;
-    background-image:url(https://i.pinimg.com/564x/91/e5/b3/91e5b308e604221944bb303d46a6e4c2.jpg);
+    height: 620px;
+    background-image:url(https://i.imgur.com/7CDGi0B.png);
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%,-50%);
     opacity: 15%
